@@ -1,0 +1,47 @@
+import winsound
+
+#PSKOVSKOE
+
+i = 5
+
+#duration
+dd = 130
+
+# Note 
+PAUSE = 32767
+NOTE_G1 = 392
+NOTE_A1 = 440
+NOTE_B1 = 494
+NOTE_C2 = 523
+NOTE_D2 = 587
+NOTE_E2 = 659
+
+while i < 10:
+
+
+    winsound.Beep(NOTE_A1, dd)
+    winsound.Beep(PAUSE, 3 * dd)
+    winsound.Beep(NOTE_E2, dd)
+    winsound.Beep(PAUSE, dd)
+    winsound.Beep(NOTE_E2, dd)
+    winsound.Beep(PAUSE, 3 * dd)
+    winsound.Beep(NOTE_A1, dd)
+    winsound.Beep(PAUSE, dd)
+    winsound.Beep(NOTE_C2, dd)
+    winsound.Beep(PAUSE, 3 * dd)
+    winsound.Beep(NOTE_A1, dd)
+    winsound.Beep(PAUSE, 2 * dd)
+    winsound.Beep(NOTE_A1, dd)
+    winsound.Beep(NOTE_E2, dd)
+    winsound.Beep(PAUSE, dd)
+    winsound.Beep(NOTE_E2, dd)
+    winsound.Beep(PAUSE, dd)
+    winsound.Beep(NOTE_G1, dd)
+    winsound.Beep(PAUSE, dd)
+    winsound.Beep(NOTE_G1, dd)
+    winsound.Beep(NOTE_B1, dd)
+    winsound.Beep(NOTE_D2, dd)
+    winsound.Beep(PAUSE, 3 * dd)
+
+    i = i + 1
+# F A N
